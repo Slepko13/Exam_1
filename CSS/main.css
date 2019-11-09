@@ -1,0 +1,411 @@
+font-face {
+  font-family: "Aleo";
+  src: url("../Fonts/Regular/aleo-regular-webfont.woff2") format("woff2"), url("../Fonts/Regular/aleo-regular-webfont.woff") format("woff"); }
+
+.header {
+  height: 820px;
+  background: url(../Images/Header/Image.png) center center no-repeat;
+  background-size: cover;
+  border-top: 15px solid #ffffff;
+  border-right: 15px solid #ffffff;
+  border-left: 15px solid #ffffff;
+  padding-top: 265px;
+  position: relative; }
+  .header__title {
+    /* Style for "Bhromaon" */
+    color: #ffffff;
+    font-family: 'Josefin Sans';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px; }
+  .header__text {
+    color: #ffffff;
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+    margin-top: 15px;
+    margin-bottom: 50px; }
+  .header__form .input input {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff; }
+  .header__button {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #ffffff;
+    background-color: #5474fd;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.4px; }
+    .header__button::placeholder {
+      color: #999999;
+      font-family: "Josefin Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 2.8px; }
+    .header__button .smallSearch {
+      width: 20px;
+      fill: #ffffff; }
+  .header__scroll {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 120px;
+    letter-spacing: 2.8px; }
+    .header__scroll .scroll__link {
+      text-decoration: none;
+      color: #ffffff; }
+      .header__scroll .scroll__link:hover {
+        color: orange; }
+  .header .fas--style {
+    color: #ffffff; }
+  .header__bottom {
+    width: 100%;
+    height: 80px;
+    background-color: #5474fd;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    @media only screen and (max-width: 767px) {
+      .header__bottom {
+        padding-top: 20px;
+        padding-bottom: 20px; } }
+    .header__bottom .bottom__container {
+      height: 100%;
+      display: flex;
+      align-items: center; }
+    .header__bottom .logo {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      height: 100%;
+      letter-spacing: 2.4px; }
+    .header__bottom .header__nav {
+      display: flex;
+      justify-content: space-between; }
+    .header__bottom .nav__item {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase; }
+      @media only screen and (max-width: 767px) {
+        .header__bottom .nav__item {
+          font-size: 12px; } }
+      .header__bottom .nav__item:hover {
+        color: orange; }
+
+/*------------------------------ Who We Are----------------------------------------------*/
+.whoWeAre {
+  background: url("../Images/Whoweare/bg_castle.png") center center no-repeat;
+  background-size: cover;
+  border-right: 15px solid #ffffff;
+  border-left: 15px solid #ffffff;
+  padding-bottom: 20px; }
+  @media only screen and (min-width: 768px) {
+    .whoWeAre {
+      height: 685px; } }
+  .whoWeAre .container__whoWeAre {
+    height: 100%; }
+    .whoWeAre .container__whoWeAre .whoWeAre__left {
+      display: flex;
+      flex-direction: column; }
+      .whoWeAre .container__whoWeAre .whoWeAre__left .title {
+        color: #ffffff;
+        font-family: Aleo;
+        font-size: 36px;
+        font-weight: 400;
+        margin-top: 200px;
+        margin-bottom: 60px; }
+      .whoWeAre .container__whoWeAre .whoWeAre__left .text {
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 50px;
+        letter-spacing: 1.6px; }
+      .whoWeAre .container__whoWeAre .whoWeAre__left .link {
+        width: 225px;
+        height: 60px;
+        background: url(../Images/bg_button.png) center center no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .whoWeAre .container__whoWeAre .whoWeAre__left .link a {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: Aleo;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          text-transform: uppercase;
+          letter-spacing: 1.2px;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+    .whoWeAre .container__whoWeAre .whoWeAre__right {
+      margin-top: 120px; }
+      .whoWeAre .container__whoWeAre .whoWeAre__right .image__left {
+        height: 220px;
+        background: url(../Images/Whoweare/image_left.png) center center no-repeat;
+        background-size: cover; }
+      .whoWeAre .container__whoWeAre .whoWeAre__right .image__right {
+        height: 220px;
+        background: url(../Images/Whoweare/image_right.png) center center no-repeat;
+        background-size: cover; }
+
+/*------------------------------------whatWeDO---------------------------------------*/
+.whatWeDo {
+  background-color: #333333;
+  border-right: 15px solid #ffffff;
+  border-left: 15px solid #ffffff;
+  padding-bottom: 20px; }
+  @media only screen and (min-width: 768px) {
+    .whatWeDo {
+      padding-bottom: 0;
+      height: 337px; } }
+  .whatWeDo .container__whatWeDo {
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    .whatWeDo .container__whatWeDo .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .whatWeDo .container__whatWeDo .item .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+        background-color: #333333; }
+        .whatWeDo .container__whatWeDo .item .icon:hover .search {
+          fill: #ff6363; }
+        .whatWeDo .container__whatWeDo .item .icon .search {
+          fill: #5474fd;
+          width: 60px;
+          height: 60px; }
+      .whatWeDo .container__whatWeDo .item .text {
+        color: #e8e8e8;
+        font-family: Aleo;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px; }
+
+/*---------------------------------Gallery------------------------------------*/
+.gallery__top {
+  height: 700px;
+  background: url(../Images/Gallery/bg_top.png) center center no-repeat;
+  background-size: cover;
+  border-right: 15px solid #ffffff;
+  border-left: 15px solid #ffffff; }
+  .gallery__top .gallery__container .item {
+    background-color: #232323;
+    opacity: 0.9;
+    padding-left: 30px;
+    margin-top: 230px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .gallery__top .gallery__container .item .title {
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-bottom: 30px;
+      letter-spacing: 1.5px; }
+    .gallery__top .gallery__container .item .subtitle {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase; }
+    .gallery__top .gallery__container .item .text {
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #e8e8e8;
+      margin-top: 30px;
+      margin-bottom: 50px; }
+    .gallery__top .gallery__container .item .link {
+      width: 225px;
+      height: 60px;
+      background: url(../Images/bg_button.png) center center no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .gallery__top .gallery__container .item .link a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Aleo;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Book Now" */
+        letter-spacing: 1.2px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+.gallery__bottom {
+  height: 700px;
+  background: url(../Images/Gallery/bg_bottom.png) center center no-repeat;
+  background-size: cover;
+  border-right: 15px solid #ffffff;
+  border-left: 15px solid #ffffff; }
+  .gallery__bottom .gallery__container .item {
+    background-color: #232323;
+    opacity: 0.9;
+    padding-left: 30px;
+    margin-top: 230px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .gallery__bottom .gallery__container .item .title {
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      margin-bottom: 30px;
+      letter-spacing: 1.5px; }
+    .gallery__bottom .gallery__container .item .subtitle {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase; }
+    .gallery__bottom .gallery__container .item .text {
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #e8e8e8;
+      margin-top: 30px;
+      margin-bottom: 50px; }
+    .gallery__bottom .gallery__container .item .link {
+      width: 225px;
+      height: 60px;
+      background: url(../Images/bg_button.png) center center no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .gallery__bottom .gallery__container .item .link a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Aleo;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+/*---------------------------------------Tourist----------------------------------*/
+.tourist {
+  height: 731px;
+  background: url(../Images/Testimonial/bg_testim.png) center center no-repeat;
+  background-size: cover;
+  border-right: 15px solid #ffffff;
+  border-left: 15px solid #ffffff; }
+  .tourist .tourist__container {
+    padding-top: 120px; }
+    .tourist .tourist__container .col--style {
+      background-color: #333333;
+      padding-left: 60px;
+      padding-top: 50px; }
+  .tourist .title {
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 95px; }
+  .tourist .subtitle {
+    color: #fefefe;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .tourist .text {
+    color: #e8e8e8;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    text-indent: 30px; }
+    .tourist .text .fas--style {
+      color: #5474fd;
+      position: absolute;
+      font-size: 24px;
+      left: -30px;
+      top: -10px; }
+  .tourist .image {
+    height: 284px;
+    background: url(../Images/Testimonial/man.png) center center no-repeat;
+    background-size: cover; }
+
+/*------------------------------------Footer-------------------------------------------------*/
+.footer {
+  height: 268px;
+  background-color: #232323;
+  border-right: 15px solid #ffffff;
+  border-left: 15px solid #ffffff;
+  padding-top: 120px; }
+  .footer .title {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.36px; }
+  .footer .text {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1.6px; }
+  .footer .icons {
+    display: flex;
+    justify-content: center;
+    line-height: 16px; }
+    .footer .icons .icon {
+      margin: 12px;
+      line-height: 16px; }
+      .footer .icons .icon a {
+        text-decoration: none;
+        color: #ffffff; }
+        .footer .icons .icon a:hover {
+          color: #5474fd; }
